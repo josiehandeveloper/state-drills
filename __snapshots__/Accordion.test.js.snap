@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component component opens a clicked section 1`] = `
+<div>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <div
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+  </li>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <div
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+  </li>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <div
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+  </li>
+</div>
+`;
+
+exports[`Accordian Component component opens last section if multiple sections are clicked 1`] = `
+<div>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <div
+      className="content"
+    >
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </div>
+  </li>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <div
+      className="content"
+    >
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </div>
+  </li>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <div
+      className="content"
+    >
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </div>
+  </li>
+</div>
+`;
+
+exports[`Accordian Component renders an empty li when section prop not supplied 1`] = `<div />`;
+
+exports[`Accordian Component renders no sections as active by default 1`] = `
+<div>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <div
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+  </li>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <div
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+  </li>
+  <li
+    className="Accordion-section"
+  >
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <div
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+  </li>
+</div>
+`;
